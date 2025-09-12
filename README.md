@@ -27,7 +27,7 @@ It provides both a **customer-facing experience** and an **admin dashboard** for
 ---
 
 ## 📂 Repository
-🔗 GitHub Repo: [E-Commerce Project])(https://github.com/Suraj45301/Ecommerce)
+🔗 GitHub Repo: [E-Commerce Project](https://github.com/Suraj45301/Ecommerce)
 
 ---
 
