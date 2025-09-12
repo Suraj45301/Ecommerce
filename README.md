@@ -26,20 +26,13 @@ It provides both a **customer-facing experience** and an **admin dashboard** for
 
 ---
 
-## 🎥 Demo Video
-Click below to watch the full walkthrough on YouTube:  
-
-[![Watch the video] : https://youtu.be/4TvITfx7RUk?si=mY-YgYbzJWqDev1D
-
----
-
 ## 📂 Repository
-🔗 GitHub Repo: [E-Commerce Project](https://github.com/RahulBera752/E-Commerce)
+🔗 GitHub Repo: [E-Commerce Project])(https://github.com/Suraj45301/Ecommerce)
 
 ---
 
 ## 🔗 Connect With Me
-- 💼 [LinkedIn](https://www.linkedin.com/in/rahul-bera-67456125/)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/suraj-yadav8874)  
 
 ---
 
