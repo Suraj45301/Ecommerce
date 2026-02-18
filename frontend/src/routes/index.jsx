@@ -10,7 +10,7 @@ import AllProducts from "../pages/AllProducts";
 import AllOrders from "../pages/AllOrders";
 import CategoryProduct from "../pages/catagoryProduct";
 import ProductDetails from "../pages/ProductDetails";
-import Cart from "../pages/Cart";
+import Cart from "../pages/cart";
 import SearchProduct from "../pages/SearchProduct";
 import Order from "../pages/OrderPage";
 import OrderSuccess from "../pages/OrderSuccess";
