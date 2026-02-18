@@ -190,8 +190,8 @@ const Order = () => {
     if (!loaded) throw new Error("Failed to load Razorpay SDK");
 
     // ✅ use total - discount (finalAmount)
-    const orderRes = await fetch("http://localhost:8000/api/payment/create-order", {
-      method: "POST",
+    const orderRes = await fetch(SummaryApi.payment.createOrder.url, {
+      method: SummaryApi.payment.createOrder.method,
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount: orderPayload.total, currency: "INR" }),
     });
@@ -207,8 +207,8 @@ const Order = () => {
       description: "Order Payment",
       order_id: data.order.id,
       handler: async function (response) {
-        const verifyRes = await fetch("http://localhost:8000/api/payment/verify", {
-          method: "POST",
+        const verifyRes = await fetch(SummaryApi.payment.verify.url, {
+          method: SummaryApi.payment.verify.method,
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(response),
         });

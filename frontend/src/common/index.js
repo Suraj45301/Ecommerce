@@ -1,6 +1,6 @@
 // src/common/index.js
 
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
 
 export const SummaryApi = {
   signup: {
@@ -19,6 +19,17 @@ export const SummaryApi = {
     url: `${BASE_URL}/api/user/userLogout`,
     method: "GET",
   },
+  // ✅ Payment APIs
+  payment: {
+    createOrder: {
+      url: `${BASE_URL}/api/payment/create-order`,
+      method: "POST",
+    },
+    verify: {
+      url: `${BASE_URL}/api/payment/verify`,
+      method: "POST",
+    }
+  },
   all_users: {
     url: `${BASE_URL}/api/user/all-users`,
     method: "GET",
@@ -28,13 +39,13 @@ export const SummaryApi = {
     method: "PATCH",
   },
   forgotPassword: {
-  url: `${BASE_URL}/api/user/forgot-password`,
-  method: "POST",
-},
-resetPassword: {
-  url: `${BASE_URL}/api/user/reset-password`,
-  method: "POST",
-},
+    url: `${BASE_URL}/api/user/forgot-password`,
+    method: "POST",
+  },
+  resetPassword: {
+    url: `${BASE_URL}/api/user/reset-password`,
+    method: "POST",
+  },
   // ✅ Product APIs
   all_products: {
     url: `${BASE_URL}/api/product/all-products`,
