@@ -190,7 +190,7 @@ const Order = () => {
     if (!loaded) throw new Error("Failed to load Razorpay SDK");
 
     // ✅ use total - discount (finalAmount)
-    const orderRes = await fetch("http://localhost:8080/api/payment/create-order", {
+    const orderRes = await fetch("http://localhost:8000/api/payment/create-order", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount: orderPayload.total, currency: "INR" }),
@@ -203,11 +203,11 @@ const Order = () => {
       key: import.meta.env.VITE_RAZORPAY_KEY_ID,
       amount: data.order.amount,
       currency: "INR",
-      name: "RB Store",
+      name: "SY Store",
       description: "Order Payment",
       order_id: data.order.id,
       handler: async function (response) {
-        const verifyRes = await fetch("http://localhost:8080/api/payment/verify", {
+        const verifyRes = await fetch("http://localhost:8000/api/payment/verify", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(response),
@@ -354,9 +354,8 @@ const Order = () => {
           <button
             onClick={handlePlaceOrder}
             disabled={isLoading || cartItems.length === 0}
-            className={`w-full bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition ${
-              isLoading || cartItems.length === 0 ? "opacity-50 cursor-not-allowed" : ""
-            }`}
+            className={`w-full bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition ${isLoading || cartItems.length === 0 ? "opacity-50 cursor-not-allowed" : ""
+              }`}
           >
             {isLoading ? "Processing..." : "Place Order"}
           </button>

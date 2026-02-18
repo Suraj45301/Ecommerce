@@ -35,6 +35,10 @@ import updateAddToCartProduct from "../controller/user/updateAddToCARTProduct.js
 import { razorpayOrderController } from "../controller/payment/razorpayOrderController.js";
 
 const router = express.Router();
+router.get("/", (req, res) => {
+  res.send("User API working ✅");
+});
+
 
 // 🟢 Forgot / Reset Password Routes
 router.post("/forgot-password", forgotPasswordController);

@@ -7,7 +7,7 @@ export default defineConfig({
     plugins: [react(), tailwindcss()],
     server: {
         proxy: {
-            '/api': 'http://localhost:8080',
+            '/api': 'http://localhost:8000',
         },
         historyApiFallback: true, // ⬅️ This line is what you missed.
     },

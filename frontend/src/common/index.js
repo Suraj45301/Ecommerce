@@ -1,6 +1,6 @@
 // src/common/index.js
 
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "http://localhost:8000";
 
 export const SummaryApi = {
   signup: {

@@ -32,7 +32,7 @@ It provides both a **customer-facing experience** and an **admin dashboard** for
 ---
 
 ## 🔗 Connect With Me
-- 💼 [LinkedIn](https://www.linkedin.com/in/suraj-yadav8874)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/suraj-yadav8874/)
 
 ---
 
