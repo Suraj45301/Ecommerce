@@ -90,6 +90,25 @@ const products = [
         price: 9995,
         sellingPrice: 8500,
     },
+    // Refrigerators
+    {
+        productName: "LG 260L Frost Free Double Door",
+        brandName: "LG",
+        category: "refrigerator",
+        productImage: ["https://rukminim2.flixcart.com/image/850/1000/xif0q/refrigerator-new/q/z/p/-original-imagp8p5hgjhxhgx.jpeg?q=20"],
+        description: "Smart Inverter Compressor, Multi Air Flow",
+        price: 24990,
+        sellingPrice: 32000,
+    },
+    {
+        productName: "Samsung 198L Direct Cool Single Door",
+        brandName: "Samsung",
+        category: "refrigerator",
+        productImage: ["https://rukminim2.flixcart.com/image/850/1000/xif0q/refrigerator-new/h/w/h/-original-imagp8p5bfh5z4z5.jpeg?q=20"],
+        description: "Digital Inverter Technology, Stabilizer Free Operation",
+        price: 16490,
+        sellingPrice: 16490,
+    },
     // Televisions
     {
         productName: "Sony BRAVIA XR",
