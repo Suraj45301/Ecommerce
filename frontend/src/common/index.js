@@ -1,6 +1,9 @@
 // src/common/index.js
 
+
 const BASE_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
+console.log("Current Backend URL:", BASE_URL); // Debugging log
+
 
 export const SummaryApi = {
   signup: {
