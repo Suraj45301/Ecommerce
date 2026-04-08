@@ -99,7 +99,7 @@ function SignUp() {
         {/* Left Blue Box */}
         <div className="w-1/2 bg-[#4a90e2] text-white p-8 flex flex-col items-center justify-start">
           <img src={logo} alt="Logo" className="h-16 mb-2" />
-        <h2 className="text-3xl font-bold mb-6" style={{ color: "#DAA520" }}>Sign Up</h2>
+          <h2 className="text-3xl font-bold mb-6" style={{ color: "#DAA520" }}>Sign Up</h2>
           <h5 className="text-3xl font-bold mb-4">WelCome To GhoroaStore</h5>
           <p className="text-center text-sm">
             Create your account and start shopping with us
@@ -119,11 +119,16 @@ function SignUp() {
                     className="w-full h-full object-cover rounded-full"
                   />
                 ) : (
-                  <img
-                    src={signinGif}
-                    alt="Default user"
-                    className="w-16 h-16 object-contain"
-                  />
+                  <div className="w-full h-full relative flex items-center justify-center">
+                    <img
+                      src={signinGif}
+                      alt="Default user"
+                      className="w-16 h-16 object-contain pb-3"
+                    />
+                    <div className="absolute bottom-0 w-full bg-slate-200 bg-opacity-90 text-center text-[11px] py-1 font-semibold text-slate-700">
+                      Upload
+                    </div>
+                  </div>
                 )}
               </div>
             </label>

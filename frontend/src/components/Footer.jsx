@@ -67,46 +67,28 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-2 text-gray-800">SOCIAL</h4>
             <ul>
-            <li>
-  <a
-    href="https://www.facebook.com/profile.php?id=100073309894467"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="hover:underline"
-  >
-    Facebook
-  </a>
-</li>
-<li>
-  <a
-    href="https://www.instagram.com/rahulbera_52/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="hover:underline"
-  >
-    Instagram
-  </a>
-</li>
+
               <li>
-  <a
-    href="https://x.com/PapaiBera161978"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="hover:underline"
-  >
-    X(Formerly Twitter)
-  </a>
-</li>
-<li>
-  <a
-    href="https://www.youtube.com/@rahulbera3564"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="hover:underline"
-  >
-    Youtube
-  </a>
-</li>
+                <a
+                  href="https://www.instagram.com/suuraj.45/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com/dummyuser"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                >
+                  X(Formerly Twitter)
+                </a>
+              </li>
+
             </ul>
           </div>
 
@@ -124,9 +106,9 @@ const Footer = () => {
               Registered Office Address:
             </h4>
             <p>
-              GhoroaStore Internet Pvt Ltd, Policepara,Garia
+              GhoroaStore Internet Pvt Ltd
               <br />
-              Kolkata, India - 700152
+              Ahraura, Mirzapur, Uttar Pradesh
             </p>
             <p className="mt-2">CIN : U123456WB2025PTC123456</p>
             <p>Telephone: 044-12345678</p>
